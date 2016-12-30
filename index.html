@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<title>The Seven Seas!</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center">The Seven Seas!</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 text-center">You are under attack! Start Game to fight back!</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<button class="btn btn-success">Start Game!</button>
+				<button class="btn btn-info">Pause Game</button>
+				<button class="btn btn-primary">New Player</button>
+				<input id="player-name" type="text" placeholder="New Player">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 text-center">Score: <span id="score-value">0</span></div>
+			<div class="col-sm-12 text-center">High-Score: <span id="high-score-value">0</span></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-offset-12 text-center" id="canvas">
+				<!-- this holds the canvas -->
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
